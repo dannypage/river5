@@ -1,11 +1,14 @@
 {
 	"maxRiverItems": 500,
+	"templatePath": "misc/template.html",
+	"urlServerHomePageSource": "misc/serverhomepage.html",
+	"urlDashboardSource": "misc/dashboard.html",
 	"homePage": {
 		"panels": [
-				{
-					"title": "World",
-					"river": "world.txt"
-				}
-			]
-		}
+			{
+				"title": "World",
+				"river": "world.txt"
+			}
+		]
 	}
+}
