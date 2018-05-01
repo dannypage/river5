@@ -1,12 +1,12 @@
 {
 	"name": "river5",
-	"description": "A river-of-news RSS aggregator in JavaScript running in Node.",
-	"author": "Dave Winer <dave@smallpicture.com>",
+	"description": "A fork of A river-of-news RSS aggregator in JavaScript running in Node.",
+	"author": "Danny Page <daniel.w.page@gmail.com>",
 	"version": "0.5.15",
-	"homepage": "https://github.com/scripting/river5",
+	"homepage": "https://github.com/dannypage/river5",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/scripting/river5"
+		"url": "https://github.com/dannypage/river5"
 		},
 	"scripts": {
 		"start": "node river5.js"
@@ -20,7 +20,7 @@
 		"feedparser": "*",
 		"daveutils": "*",
 		"davereader": "*"
-		}, 
+		},
 	"license": "MIT",
 	"engines": {
 		"node": "0.10.*"

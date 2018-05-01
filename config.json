@@ -1,18 +1,10 @@
 {
-	"maxRiverItems": 300,
-	"homePage": { 
+	"maxRiverItems": 500,
+	"homePage": {
 		"panels": [
-			{
-				"title": "Main",
-				"river": "myOpmlFeeds.js"
-				},
-			{
-				"title": "NYT",
-				"river": "nyt.js"
-				},
-			{
-				"title": "Hacker News",
-				"river": "hn.js"
+				{
+					"title": "World",
+					"river": "world.txt"
 				}
 			]
 		}
