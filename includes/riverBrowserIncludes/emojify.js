@@ -1,10 +1,10 @@
-document.write ("<script src=\"http://fargo.io/code/emojify/emojify.js\" async></script>");
-document.write ("<link rel=\"stylesheet\" href=\"http://fargo.io/code/shared/emojify.css\"/>");
+document.write ("<script src=\"https://fargo.io/code/emojify/emojify.js\" async></script>");
+document.write ("<link rel=\"stylesheet\" href=\"https://fargo.io/code/shared/emojify.css\"/>");
 
 
 function emojiProcess (s, myDirectory) {
 	if (myDirectory === undefined) { //1/11/17 by DW
-		myDirectory = "http://fargo.io/code/emojify/images/emoji";
+		myDirectory = "https://fargo.io/code/emojify/images/emoji";
 		}
 	else {
 		if (endsWith (myDirectory, "/")) { //1/11/17 by DW

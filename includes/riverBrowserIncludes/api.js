@@ -20,7 +20,7 @@
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
 	 
-	structured listing: http://scripting.com/listings/nodestorageapi.html
+	structured listing: https://scripting.com/listings/nodestorageapi.html
 	*/
 
 var twStorageConsts = {

@@ -11,6 +11,6 @@
 		<windowRight>1500</windowRight>
 		</head>
 	<body text="lists/hn.opml">
-		<outline htmlUrl="https://news.ycombinator.com/newest" name="hackerNewsFirehose" text="Hacker News Firehose" title="Hacker News Firehose" type="rss" xmlUrl="http://hn.geekity.com/newstories.xml"></outline>
+		<outline htmlUrl="https://news.ycombinator.com/newest" name="hackerNewsFirehose" text="Hacker News Firehose" title="Hacker News Firehose" type="rss" xmlUrl="https://hn.geekity.com/newstories.xml"></outline>
 		</body>
 	</opml>

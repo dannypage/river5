@@ -11,7 +11,7 @@
  * The date defaults to the current date/time.
  * The mask defaults to dateFormat.masks.default.
  *
- * http://blog.stevenlevithan.com/archives/date-time-format
+ * https://blog.stevenlevithan.com/archives/date-time-format
  */
 
 var dateFormat = function () {
@@ -131,7 +131,7 @@ Date.prototype.format = function (mask, utc) {
 
 /*
  * Relative time formats
- * Modified from http://ejohn.org/blog/javascript-pretty-date/#comment-297458
+ * Modified from https://ejohn.org/blog/javascript-pretty-date/#comment-297458
  */
 
 function timeDifference(date){

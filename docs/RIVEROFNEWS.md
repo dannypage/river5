@@ -22,11 +22,11 @@ If it requires more interaction than simply scrolling, it is not a River of News
 
 #### Examples
 
-Here's a <a href="http://static.scripting.com/larryKing/images/2014/06/02/itemInARiver.gif">screen shot</a> of an item from a River of News aggregator.
+Here's a <a href="https://static.scripting.com/larryKing/images/2014/06/02/itemInARiver.gif">screen shot</a> of an item from a River of News aggregator.
 
-Here's an <a href="http://scripting.com/?tab=river">example</a> of a river, and a <a href="http://scripting.com/river/?panel=dave">collection</a> of rivers, one in each tab.
+Here's an <a href="https://scripting.com/?tab=river">example</a> of a river, and a <a href="https://scripting.com/river/?panel=dave">collection</a> of rivers, one in each tab.
 
 <a href="https://github.com/scripting/river5">River5</a> is an open source package I wrote that runs in Node.js, that maintains rivers. 
 
-PS: This post originally appeared on my <a href="http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html">blog</a>.
+PS: This post originally appeared on my <a href="https://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html">blog</a>.
 

@@ -413,7 +413,7 @@ function jsonStringify (jstruct, flFixBreakage) { //7/30/14 by DW
 			//Andrew Shell reported an issue in the encoding of JSON that's solved by doing character replacement. 
 			//However, this is too big a change to make for all the code that calls this library routine, so we added a boolean flag, flFixBreakage.
 			//If this proves to be harmless, we'll change the default to true. 
-			//http://river4.smallpict.com/2015/06/16/jsonEncodingIssueSolved.html
+			//https://river4.smallpict.com/2015/06/16/jsonEncodingIssueSolved.html
 	if (flFixBreakage === undefined) {
 		flFixBreakage = false;
 		}
@@ -445,7 +445,7 @@ function readHttpFile (url, callback, timeoutInMilliseconds, headers) { //5/27/1
 		});
 	}
 function readHttpFileThruProxy (url, type, callback) { //10/25/14 by DW
-	var urlReadFileApi = "http://pub2.fargo.io/httpReadUrl"; //"http://pub2.fargo.io:5347/httpReadUrl";
+	var urlReadFileApi = "https://pub2.fargo.io/httpReadUrl"; //"https://pub2.fargo.io:5347/httpReadUrl";
 	if (type === undefined) {
 		type = "text/plain";
 		}
@@ -547,14 +547,14 @@ function hotUpText (s, url) { //7/18/14 by DW
 function getDomainFromUrl (url) { //7/11/15 by DW
 	if ((url != null ) && (url != "")) {
 		url = url.replace("www.","").replace("www2.", "").replace("feedproxy.", "").replace("feeds.", "");
-		var root = url.split('?')[0]; // cleans urls of form http://domain.com?a=1&b=2
+		var root = url.split('?')[0]; // cleans urls of form https://domain.com?a=1&b=2
 		url = root.split('/')[2];
 		}
 	return (url);
 	};
 function getFavicon (url) { //7/18/14 by DW
 	var domain = getDomainFromUrl (url);
-	return ("http://www.google.com/s2/favicons?domain=" + domain);
+	return ("https://www.google.com/s2/favicons?domain=" + domain);
 	};
 function getURLParameter (name) { //7/21/14 by DW
 	return (decodeURI ((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]));
@@ -600,7 +600,7 @@ function innerCaseName (text) { //8/12/14 by DW
 	return (s);
 	}
 function hitCounter (counterGroup, counterServer, thisPageUrl, referrer) { //8/12/14 by DW
-	var defaultCounterGroup = "scripting", defaultCounterServer = "http://counter2.fargo.io:5337/counter";
+	var defaultCounterGroup = "scripting", defaultCounterServer = "https://counter2.fargo.io:5337/counter";
 	if (counterGroup === undefined) {
 		counterGroup = defaultCounterGroup;
 		}

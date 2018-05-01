@@ -1,8 +1,8 @@
 var myProductName = "feedViewer", myVersion = "0.40a";
 
-var urlServer = "http://river5.scripting.com/getfeedriver?url=";
+var urlServer = "https://river5.scripting.com/getfeedriver?url=";
 
-var urlRiverJson = "http://localhost:1337/getfeedriver?url=http://scripting.com/rss.xml";
+var urlRiverJson = "https://localhost:1337/getfeedriver?url=https://scripting.com/rss.xml";
 
 var globalFeedStruct;
 
@@ -189,7 +189,7 @@ function startup () {
 	hitCounter ();
 	initGoogleAnalytics (window.location.hostname);
 	if (serverParam != "null") { 
-		urlServer = "http://" + serverParam + "/getfeedriver?url=";
+		urlServer = "https://" + serverParam + "/getfeedriver?url=";
 		}
 	if (urlParam != "null") { 
 		urlRiverJson = urlServer + urlParam;

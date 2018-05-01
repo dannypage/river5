@@ -66,7 +66,7 @@ The maximum number of items in a river. The bigger it is the longer it takes to 
 
 ##### "maxBodyLength": 280,
 
-We truncate the &lt;description> elements of feed items to this size. I chose 280 as the default as a result of a test we did to determine the max length of a story synopsis in the NYT feeds. We figured they put a lot of time into deciding how long to make these. Pretty much all of them would fit in 280 characters. It's also twice the current limit of tweets. This value <a href="http://scripting.com/stories/2009/06/23/if140IsTooLittleWhatsTheRi.html">feels good</a>, at least to me. ;-)
+We truncate the &lt;description> elements of feed items to this size. I chose 280 as the default as a result of a test we did to determine the max length of a story synopsis in the NYT feeds. We figured they put a lot of time into deciding how long to make these. Pretty much all of them would fit in 280 characters. It's also twice the current limit of tweets. This value <a href="https://scripting.com/stories/2009/06/23/if140IsTooLittleWhatsTheRi.html">feels good</a>, at least to me. ;-)
 
 ##### "flSkipDuplicateTitles": true,
 
@@ -96,7 +96,7 @@ There's a limit to how many concurrent file writes a Node app can do. It varies 
 
 ##### "remotePassword": "",
 
-People who use <a href="http://river4.io/">river4.io</a> to manage their server will need to set this to a non-empty value. We may at some time produce an equivalent app just for River5. 
+People who use <a href="https://river4.io/">river4.io</a> to manage their server will need to set this to a non-empty value. We may at some time produce an equivalent app just for River5. 
 
 ##### "flWatchAppDateChange": false,
 
@@ -104,11 +104,11 @@ People who use <a href="http://river4.io/">river4.io</a> to manage their server 
 
 These values tell River5 to quit when it notices that its main JavaScript file has changed. This is useful for me as the developer, but it's hard to imagine who else it might be useful to. 
 
-##### "urlServerHomePageSource": "http://rss2.io/code/feedtools/misc/serverhomepage.html", 
+##### "urlServerHomePageSource": "https://rss2.io/code/feedtools/misc/serverhomepage.html", 
 
-##### "urlDashboardSource": "http://rss2.io/code/feedtools/misc/dashboard.html",
+##### "urlDashboardSource": "https://rss2.io/code/feedtools/misc/dashboard.html",
 
-##### "urlFavicon": "http://rss2.io/code/favicon.ico",
+##### "urlFavicon": "https://rss2.io/code/favicon.ico",
 
 When you access the home page of your server, River5 loads the HTML source for the home page from the address specified by urlServerHomePageSource. If you want to develop a customized home page, and you're a JavaScript programmer, you can change this value. You are welcome to use the example at that address as starter code.   
 
@@ -148,7 +148,7 @@ Each item in the array is an object, that has two values: <i>title</i> and <i>ri
 
 <i>river</i> is the name of the file in the rivers folder you want to be displayed in the panel.
 
-You get to the home page by going to <a href="http://localhost:1337/">http://localhost:1337/</a> on the machine the server is running on. 
+You get to the home page by going to <a href="https://localhost:1337/">https://localhost:1337/</a> on the machine the server is running on. 
 
 Here's an <a href="https://gist.github.com/scripting/b03106f660111ac7d987">example</a> of the config.json file to help tie it all together. 
 

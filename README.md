@@ -1,6 +1,6 @@
 # River5
 
-River5 is a <a href="http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html">river-of-news</a> RSS aggregator in JavaScript running in Node, written by <a href="http://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html">Dave Winer</a>.
+River5 is a <a href="https://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html">river-of-news</a> RSS aggregator in JavaScript running in Node, written by <a href="https://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html">Dave Winer</a>.
 
 ## How River5 works
 
@@ -10,9 +10,9 @@ Each list contains a set of URLs of feeds. The list files can be straight <a hre
 
 The feeds pointed to from the lists can be in RSS 0.9x, 1.0 or 2.0, or Atom 1.0.
 
-Every 15 minutes, River5 reads all the feeds you're subscribed to, and routes new items to corresponding files in the <i>rivers</i> folder at the top level of the River5 folder. You're subscribed to a feed if it appears in one or more of your lists. The river files are a <a href="http://riverjs.org/">documented</a> form of JSONP that we've been using since <a href="http://river3.opml.org/">River3</a>, in 2010.
+Every 15 minutes, River5 reads all the feeds you're subscribed to, and routes new items to corresponding files in the <i>rivers</i> folder at the top level of the River5 folder. You're subscribed to a feed if it appears in one or more of your lists. The river files are a <a href="https://riverjs.org/">documented</a> form of JSONP that we've been using since <a href="https://river3.opml.org/">River3</a>, in 2010.
 
-To read the output of River5 on the machine it's running on, go to the home page. Assuming your river is running on the default port, 1337, you would go to this address to read the rivers. http://localhost:1337/. If it's running on a public server, just replace localhost with the domain name or IP address of the server. 
+To read the output of River5 on the machine it's running on, go to the home page. Assuming your river is running on the default port, 1337, you would go to this address to read the rivers. https://localhost:1337/. If it's running on a public server, just replace localhost with the domain name or IP address of the server. 
 
 Pretty much everything in this narrative is configurable. 
 
@@ -36,7 +36,7 @@ If you don't have Node.js installed on your machine, here are step by step <a hr
 
 4. node river5.js
 
-If it's working properly, you should see tons of stories scroll by in the console. River5 is reading each of the feeds in the lists for the first time. When you see things settle down, then you should open the home page of the RIver5 website, at http://localhost:1337/ and see the result of the first feed readings.
+If it's working properly, you should see tons of stories scroll by in the console. River5 is reading each of the feeds in the lists for the first time. When you see things settle down, then you should open the home page of the RIver5 website, at https://localhost:1337/ and see the result of the first feed readings.
 
 At first there will be a lot of old stories, but as the rivers run for hours and days and into weeks, you'll get the flow. It's a good way to read news.
 
@@ -46,7 +46,7 @@ I have included several files in the <i>lists</i> folder to help you get started
 
 1. <a href="https://github.com/scripting/river5/blob/master/lists/myJsonFeeds.json">myJsonFeeds.json</a> -- a list of URLs of feeds in the JSON format that River5 understands. 
 
-2. <a href="https://github.com/scripting/river5/blob/master/lists/myOpmlFeeds.opml">myOpmlFeeds.opml</a> -- a list of URLs of feeds in the standard OPML <a href="http://dev.opml.org/spec2.html#subscriptionLists">format</a> for subscription lists.
+2. <a href="https://github.com/scripting/river5/blob/master/lists/myOpmlFeeds.opml">myOpmlFeeds.opml</a> -- a list of URLs of feeds in the standard OPML <a href="https://dev.opml.org/spec2.html#subscriptionLists">format</a> for subscription lists.
 
 3. <a href="https://github.com/scripting/river5/blob/master/lists/myTxtFeeds.txt">myTxtFeeds.txt</a> -- a list of URLS in a text file.
 
@@ -56,7 +56,7 @@ I have included several files in the <i>lists</i> folder to help you get started
 
 ## To view your rivers
 
-Go to <a href="http://localhost:1337/">http://localhost:1337/</a>.
+Go to <a href="https://localhost:1337/">https://localhost:1337/</a>.
 
 ## Configuring
 
@@ -88,13 +88,13 @@ river5.js itsef is a very small file and by design almost never changes.
 
 ## Examples of working rivers
 
-1. <a href="http://podcatch.com/">Podcatch.com</a> subscribes to my friends' podcast feeds.
+1. <a href="https://podcatch.com/">Podcatch.com</a> subscribes to my friends' podcast feeds.
 
-2. <a href="http://mlbriver.com/">mlbriver.com</a> and <a href="http://nbariver.com/">nbariver.com</a> collect news for two sports I love.
+2. <a href="https://mlbriver.com/">mlbriver.com</a> and <a href="https://nbariver.com/">nbariver.com</a> collect news for two sports I love.
 
-3. I have a <a href="http://scripting.com/?panel=river">River panel</a> on the Scripting News home page. 
+3. I have a <a href="https://scripting.com/?panel=river">River panel</a> on the Scripting News home page. 
 
-4. My <a href="http://radio3.io/rivers/">rivers page</a> puts all the news I care about on a single tabbed page, with panels for the NYT, Washington Post, Guardian, Movies, Tech, baseball and basketball.
+4. My <a href="https://radio3.io/rivers/">rivers page</a> puts all the news I care about on a single tabbed page, with panels for the NYT, Washington Post, Guardian, Movies, Tech, baseball and basketball.
 
 ## Other docs
 
@@ -102,7 +102,7 @@ river5.js itsef is a very small file and by design almost never changes.
 
 2. The <a href="https://gist.github.com/scripting/87903653a0f5f6df13b4">Hello World of Rivers</a> shows you how to create a standalone river, one that people can read without accessing your RIver5 server. 
 
-3. My <a href="http://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html">blog post</a> announcing River5. 
+3. My <a href="https://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html">blog post</a> announcing River5. 
 
 ## Updates
 
@@ -114,7 +114,7 @@ The <i>lib</i> folder is gone. The two items that were in the folder have <a hre
 
 <a href="https://github.com/scripting/river5/blob/master/river5.js">river5.js</a> has been <a href="https://github.com/scripting/river5/commit/1b19d1b61cfda43761ec7c106a1dd380f82bc0b4#diff-25e8551cb24637c32e269ed7331a2518">changed</a> to use the new version of feedtools, called <i>davereader</i> (the name feedtools was already taken). It should work exactly as before. 
 
-This change will make new feed-based software possible. I've <a href="https://github.com/scripting/reader#story">written</a> about that on the <i>reader</i> site, and in a <a href="http://scripting.com/2017/05/18/davereaderIsTheEngineOfRiver5.html">blog post</a>. 
+This change will make new feed-based software possible. I've <a href="https://github.com/scripting/reader#story">written</a> about that on the <i>reader</i> site, and in a <a href="https://scripting.com/2017/05/18/davereaderIsTheEngineOfRiver5.html">blog post</a>. 
 
 Otherwise the changes should be totally transparent to River5 users. The software should behave exactly as it did before. Not much actually changed, it's just been reorganized to make it more useful in more situations. 
 
@@ -130,15 +130,15 @@ Added <a href="https://github.com/scripting/river5/blob/master/docs/CONFIG.md#bu
 
 ##### v0.48 -- 3/29/17 by DW
 
-Changes for <a href="http://scripting.com/2017/03/28/comingSoonElectricRiver.html">Electric River</a>. Added three new callbacks to config that allow us to do things a bit more efficiently because the reading and configuring app is running in the same process as the server. Wrote a <a href="https://github.com/scripting/river5/blob/master/docs/ELECTRIC.md">howto doc</a> for people with experience running River5. Added <i>flBuildEveryFiveSeconds</i> to config, if true, we build changed rivers every five seconds instead of once a minute, the default. Building rivers became a lot more efficient in the change from River4 so it made sense to allow them to be rebuilt more frequently. 
+Changes for <a href="https://scripting.com/2017/03/28/comingSoonElectricRiver.html">Electric River</a>. Added three new callbacks to config that allow us to do things a bit more efficiently because the reading and configuring app is running in the same process as the server. Wrote a <a href="https://github.com/scripting/river5/blob/master/docs/ELECTRIC.md">howto doc</a> for people with experience running River5. Added <i>flBuildEveryFiveSeconds</i> to config, if true, we build changed rivers every five seconds instead of once a minute, the default. Building rivers became a lot more efficient in the change from River4 so it made sense to allow them to be rebuilt more frequently. 
 
 ##### v0.47 -- 2/9/17 by DW
 
-Fixed two problems reported by Andrew Shell. Added some feeds to the default set up, and configured the default home page so it only has three panels and they have intelligent labels, using the relatively new <a href="https://github.com/scripting/river5/blob/master/docs/CONFIG.md#configuring-the-home-page">homePage</a> configuration option. Fixed a <a href="http://scripting.com/2017/02/11/cookiesInNytFeeds.html">problem</a> with NYT feeds and cookies. We now set the User-Agent header on requests. Apparently some servers won't respond unless this header is present. 
+Fixed two problems reported by Andrew Shell. Added some feeds to the default set up, and configured the default home page so it only has three panels and they have intelligent labels, using the relatively new <a href="https://github.com/scripting/river5/blob/master/docs/CONFIG.md#configuring-the-home-page">homePage</a> configuration option. Fixed a <a href="https://scripting.com/2017/02/11/cookiesInNytFeeds.html">problem</a> with NYT feeds and cookies. We now set the User-Agent header on requests. Apparently some servers won't respond unless this header is present. 
 
 ##### v0.46 -- 11/16/16 by DW
 
-Refreshed the admin app, <a href="http://rss2.io/admin/">relocated</a> it, and fixed a couple of entry-points it depends on that didn't work with CORS. 
+Refreshed the admin app, <a href="https://rss2.io/admin/">relocated</a> it, and fixed a couple of entry-points it depends on that didn't work with CORS. 
 
 ##### v0.45 -- 3/14/16 by DW
 

@@ -1,13 +1,13 @@
  
-document.write ('<link href="http://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">');
-document.write ('<script src="http://fargo.io/code/node/shared/utils.js" async></script>');
-document.write ('<script src="http://api.nodestorage.io/api.js" async></script>');
-document.write ('<script src="http://fargo.io/code/shared/emojify.js" async></script>');
-document.write ('<script src="http://fargo.io/cms/dateFormat.js" async></script>');
-document.write ('<link rel="stylesheet" href="http://fargo.io/code/fontAwesome/css/font-awesome.min.css"/>');
-document.write ('<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">');
-document.write ('<script src="http://fargo.io/code/browsers/outlinebrowser.js" async></script>'); //6/18/15 by DW
-document.write ('<link href="http://fargo.io/code/browsers/riverbrowser.css" rel="stylesheet" type="text/css">');
+document.write ('<link href="https://fargo.io/code/ubuntuFont.css" rel="stylesheet" type="text/css">');
+document.write ('<script src="https://fargo.io/code/node/shared/utils.js" async></script>');
+document.write ('<script src="https://api.nodestorage.io/api.js" async></script>');
+document.write ('<script src="https://fargo.io/code/shared/emojify.js" async></script>');
+document.write ('<script src="https://fargo.io/cms/dateFormat.js" async></script>');
+document.write ('<link rel="stylesheet" href="https://fargo.io/code/fontAwesome/css/font-awesome.min.css"/>');
+document.write ('<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">');
+document.write ('<script src="https://fargo.io/code/browsers/outlinebrowser.js" async></script>'); //6/18/15 by DW
+document.write ('<link href="https://fargo.io/code/browsers/riverbrowser.css" rel="stylesheet" type="text/css">');
 
 var riverBrowserData = {
 	version: "0.4.7",
@@ -15,9 +15,9 @@ var riverBrowserData = {
 	flEnclosureIcon: true,
 	flShareIcon: true,
 	flOutlinesExpandedByDefault: false, //4/16/15 by DW
-	urlTwitterServer: "http://twitter2.radio3.io:5342/", //6/18/15 by DW
+	urlTwitterServer: "https://twitter2.radio3.io:5342/", //6/18/15 by DW
 	theRiver: undefined,  //6/18/15 by DW -- used to be global
-	urlLinkBlogTool: "http://radio3.io/", //4/3/17 by DW
+	urlLinkBlogTool: "https://radio3.io/", //4/3/17 by DW
 	getExtraFooterCallback: function (item, theFooter) {
 		return (theFooter);
 		},

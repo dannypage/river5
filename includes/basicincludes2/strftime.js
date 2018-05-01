@@ -1,5 +1,5 @@
 // version 0.11 by Daniel Rench
-// More information: http://dren.ch/strftime/
+// More information: https://dren.ch/strftime/
 // This is public domain software
 
 Number.prototype.pad =

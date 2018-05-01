@@ -28,7 +28,7 @@ I'm assuming you're using a Mac though the instructions for Windows and Unix are
 
 5. BTW, you're now directly accessing the Unix operating system through something called the command line. 
 
-6. Go to <a href="https://nodejs.org/">nodejs.org</a>, and download the <a href="http://scripting.com/2016/02/08/nodeMature.png">Mature and Dependable</a> release. When the file downloads, open it, and say yes to all the confirmation prompts.
+6. Go to <a href="https://nodejs.org/">nodejs.org</a>, and download the <a href="https://scripting.com/2016/02/08/nodeMature.png">Mature and Dependable</a> release. When the file downloads, open it, and say yes to all the confirmation prompts.
 
 7. Now, with Node installed and the River5 folder open in the Terminal app, type this command, followed by Return: <i>npm install</i>
 
@@ -56,7 +56,7 @@ There will be a new river named <i>myRiver.js</i> in the <i>rivers</i> folder.
 
 When you visit the home page of your site you will see a tab for your river, assuming you haven't customized the tabs on the home page.
 
-There's an <a href="https://github.com/scripting/river5/blob/master/lists/myTxtFeeds.txt">example</a> of a .txt list in the <i>lists</i> folder that you downloaded. Here's a <a href="http://scripting.com/2016/02/26/listFile.png">screen shot</a> of that file open in my text editor. 
+There's an <a href="https://github.com/scripting/river5/blob/master/lists/myTxtFeeds.txt">example</a> of a .txt list in the <i>lists</i> folder that you downloaded. Here's a <a href="https://scripting.com/2016/02/26/listFile.png">screen shot</a> of that file open in my text editor. 
 
 #### Congratulations
 

@@ -8,7 +8,7 @@ It makes it easier to start up, and if you don't need to run a server, that is y
 
 To begin it's only available on the Mac. As we go forward there may be Linux and Windows versions as well.
 
-<a href="http://rss2.io/electric/">http://rss2.io/electric/</a>
+<a href="https://rss2.io/electric/">https://rss2.io/electric/</a>
 
 #### Getting started
 
@@ -20,7 +20,7 @@ If you want to edit the subscription list to add your own feeds, or to remove so
 
 Choose <i>Open River5 folder</i> from the Main menu. 
 
-What you'll <a href="http://scripting.com/2017/03/29/river5Folder.png">see</a> should look familiar to anyone who has run River5. 
+What you'll <a href="https://scripting.com/2017/03/29/river5Folder.png">see</a> should look familiar to anyone who has run River5. 
 
 It's the data from River5. It's all there. And there are a few other files storing the state of the Electric River app. 
 
