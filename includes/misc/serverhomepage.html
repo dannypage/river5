@@ -58,7 +58,7 @@
 				
 				function webSocketClient (s) {
 					var splitUrl = urlSplitter (window.location.href), host;
-					var urlSocket = "ws://" + splitUrl.host + ":" + serverConfig.webSocketPort + "/";
+					var urlSocket = "wss://" + splitUrl.host + ":" + serverConfig.webSocketPort + "/";
 					console.log ("webSocketClient: urlSocket == " + urlSocket);
 					
 					mySocket = new WebSocket (urlSocket); 
